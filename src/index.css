@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Gabarito";
+}
+
+.todo-app-container {
+  /* border: 1px solid red; */
+  width: 90%;
+  height: 60%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.todo-creator {
+  /* border: 1px solid blue; */
+  width: 100%;
+}
+
+.todo-creator-header {
+  font-size: 1.3rem;
+}
+
+.input-container {
+  margin-bottom: 0.5rem;
+}
+
+.input-field {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 200, 255);
+  background-color: rgb(2, 175, 223);
+  height: 35px;
+  outline: none;
+}
+
+.add-btn-container {
+}
+
+.add-btn {
+  width: 100%;
+  border: 2px solid rgb(0, 200, 255);
+  border-radius: 5px;
+  background-color: rgb(207, 245, 255);
+  height: 35px;
+  color: rgb(0, 98, 126);
+  font-weight: 600;
+}
+
+.add-btn:hover {
+  cursor: pointer;
+}
+
+.item-control {
+  /* border: 1px solid green; */
+}
+
+.list-name {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+}
+
+.item-container-small {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: start;
+  margin-left: 1.1rem;
+}
+
+.checkbox {
+  margin-right: 3px;
+}
+
+.checkbox:hover {
+  cursor: pointer;
+}
+
+.task-name {
+  margin-right: 6px;
+}
+
+.delete-btn {
+  padding: 2px 5px;
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: #ffdcdc;
+  color: red;
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+}
+
+.item-c-real {
+  display: flex;
+  align-items: center;
+}
+
+.complete {
+  color: grey;
+  text-decoration: line-through;
+}
